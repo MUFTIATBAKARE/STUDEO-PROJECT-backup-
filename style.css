@@ -207,12 +207,38 @@ a {
       display: block;
     }
   }
-.column1{
+  .column1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 2% 5%;
+}
+.cards_1 {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    outline: solid;
+    outline-color: white;
+    outline-style:outset;
+    outline-width: 1px;
+    width: 40%;
+    margin-top: -40px;
+    z-index: 20;
+    position: relative;
+    margin-left: 80px;
+      
+} 
+.cards_1 p{
+    font-size: 10px;
+}
+.cards_1 h4{
+    font-size: 12px;
+}
+
+.latestpix_1, .latestpix_2, .latestpix_3{
+    z-index: 30;
 }
 .latest_1{
     display: block;
@@ -254,7 +280,7 @@ a {
     align-items: center;
     
 }
-.cards {
+.cards_2 {
     text-align: center;
     background-color: white;
     border-radius: 5px;
@@ -270,10 +296,10 @@ a {
     margin-left: 80px;
       
 } 
-.cards p{
+.cards_2 p{
     font-size: 10px;
 }
-.cards h4{
+.cards_2 h4{
     font-size: 12px;
 }
 
@@ -323,6 +349,32 @@ a {
     margin: 2% 5%;
     position: relative;
 }
+.cards_3 {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    outline: solid;
+    outline-color: white;
+    outline-style:outset;
+    outline-width: 1px;
+    width: 40%;
+    margin-top: -40px;
+    z-index: 20;
+    position: relative;
+    margin-left: 80px;
+      
+} 
+.cards_3 p{
+    font-size: 10px;
+}
+.cards_3 h4{
+    font-size: 12px;
+}
+
+.popularpix_1, .popularpix_2, .popularpix_3{
+    z-index: 30;
+}
 .popular_1{
     display: block;
     animation: slidein 7s linear 0ms infinite alternate-reverse;
@@ -371,13 +423,13 @@ a {
     border-radius: 15px;
     padding: 20px;
 }
-.foot{
+.base{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 2% 5%;
 }
-.foot .studentsnote {
+.base .studentsnote {
     padding-left: 50px;
 }
 .studentsnote h2 {
@@ -392,9 +444,57 @@ a {
 .students{
     margin-top: 40px;
 }
+footer{
+    background-color: rgb(204, 237, 243);
+    padding-bottom: 1rem;
+
+}
+.foot{
+    display: flex;
+    color: rgb(9, 75, 175);
+    width: 80%;
+    height: 40vh;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 80px 40px;
+    padding-top: 30px;
+   
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+}
+.foot p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.8;
+
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+    width: 100%;
+}
+.middle p {
+    margin-bottom: 1rem;
+}
+.right p {
+    margin-bottom: 1rem;
+   }
+.foot h2{
+    margin-bottom: 12px;
+}
 footer h5{
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
+    font-weight: 300;
 }
 h3{
     font-size: 20px;
@@ -405,12 +505,11 @@ h3{
 h4{
     margin-top: 15px;
 }
-h5{
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 8px;
-}
+
 img{
     border-radius: 20px;
     margin-top: 2px;
+}
+span{
+    font-size: 40px;
 }
